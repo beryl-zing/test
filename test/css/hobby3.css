@@ -1,0 +1,223 @@
+body { 
+  background-color: #f4ecd5;
+  font-family:   STKaiti;
+    font-size: 1.3em;
+  margin:           1px;
+  }
+  header.top {
+    background-color: #bf958a;
+    margin: 10px 10px 0px 10px;
+    height:           108px;
+  }
+
+  header.top p{
+    width: 350px;
+    float: right;
+  }
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+}
+
+div#tableRow {
+    display: table-row;
+}
+
+div.photo{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #bf958a;
+  width: 230px;
+  height: 220px;
+  margin-left: 50px;
+}
+section#painting {
+  display: table-cell;
+    background-color: #E1CCB1;
+    width: 1200px;
+    padding: 10px;
+    vertical-align:top;
+    text-align: center;
+}
+
+
+section#painting  div#inner1,div#inner2,div#inner3,div#inner4{
+  height: 250px;
+  width: auto;
+  background-color: rgb(210, 194, 184);
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+section#painting  div#container_1{
+  height: 225px;
+  width: 310px;
+  background-color: rgb(154, 129, 113);
+  margin-left: 50px;
+  padding:  5px;
+  padding-top: 10px;
+  float: left;
+}
+section#painting  div#container_11{
+  height: 225px;
+  width: 615px;
+  background-color: rgb(224, 212, 205);
+  opacity: 0.8;
+  margin-left: 50px;
+  padding:  5px;
+  padding-top: 10px;
+  float: left;
+}
+section#painting  div#container_22{
+  height: 225px;
+  width: 615px;
+  background-color: rgb(224, 212, 205);
+  opacity: 0.8;
+  margin-left: 50px;
+  padding:  5px;
+  padding-top: 10px;
+  float: left;
+}
+section#painting  div#container_2{
+  height: 225px;
+  width: 310px;
+  background-color: rgb(154, 129, 113);
+  margin-right: 50px;
+  padding:  5px;
+  padding-top: 10px;
+  float: right;
+}
+
+section#painting   div#container_3{
+  height: 225px;
+  width: 310px;
+  background-color: rgb(154, 129, 113);
+  margin-left: 50px;
+  padding:  5px;
+  padding-top: 10px;
+  float: left;
+}
+section#painting  div#container_33{
+  height: 225px;
+  width: 615px;
+  background-color: rgb(224, 212, 205);
+  opacity: 0.8;
+  margin-left: 50px;
+  padding:  5px;
+  padding-top: 10px;
+  float: left;
+}
+section#painting  div#container_44{
+  height: 225px;
+  width: 615px;
+  background-color: rgb(224, 212, 205);
+  opacity: 0.8;
+  margin-left: 50px;
+  padding:  5px;
+  padding-top: 10px;
+  float: left;
+}
+
+section#painting   div#container_4{
+  height: 225px;
+  width: 310px;
+  background-color: rgb(154, 129, 113);
+  margin-right: 50px;
+  float: right;
+  padding:  5px;
+  padding-top: 10px;
+}
+section#painting  div.photo{
+  margin-top: 10px;
+}
+p{
+  width: 580px;
+  word-wrap:break-word;  
+  word-break:break-all; 
+  /* html内容超出了div或p的宽度 让内容自动换行 */
+  overflow: hidden;
+  /* 隐藏溢出div的字 */
+}
+
+div#nav{
+  background-color: #efe5d0;
+  padding: 5px;
+  width: 99%; 
+
+}
+div#nav ul{
+  list-style-type: none;
+  padding: 5px;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  
+}
+div#nav ul li{
+  display: inline-block;
+  width: 100px;
+}
+div#nav li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#nav ul li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+div#nav ul li a.active {
+  color: white;
+  background-color: #bf958a;
+}
+nav{
+  display: table-cell;
+  background-color: #e0cdc4;
+  padding: 15px;
+  width: 25%; 
+  vertical-align: top;
+}
+.photo{
+  text-align: center;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 30px;
+    padding: 20px;
+    width: 190px;
+    /* background-color: #f1f1f1; */
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #000;
+    padding: 16px 26px;
+    width: 180px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  
+  /* 鼠标悬停时改变链接颜色 */
+  nav ul li a:hover {
+    background-color: #a9a188;
+    color: white;
+  }
+  nav ul li a:active {
+    background-color: #bf958a;
+    color: white;
+}
+
+  footer {
+    background-color: #bf958a;
+    color:             #070504;
+    text-align:       center;
+    padding:          px;
+    /* margin: 0px 10px 10px 10px; */
+    font-size:        90%;
+  }
